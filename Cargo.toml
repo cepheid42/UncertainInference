@@ -1,0 +1,16 @@
+[package]
+name = "bayes_nets"
+version = "0.1.0"
+authors = ["Soubhik Ghosh <soub2111@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quick-xml = "0.17.0"
+rand = "0.7.2"
+ndarray = "0.13.0"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
